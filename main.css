@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1D1E28;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+}
+
+.navbar {
+    box-shadow: none !important
+}
+
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.btn {
+    border-radius: 15px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    background-color: #a83e9f!important
+}
+.btn-primary1 {
+    background-color: #000000!important
+}
+.btn-secondary {
+    background-color: #343537 !important
+}
+.heading {
+    padding: 160px 50px !important;
+    color: #fff !important;
+    background-image: url("https://cdn.glitch.global/c007adc7-16ce-458f-9073-1b8fac98d224/wavy-light.svg?v=1669552639073") !important;
+    background-position: bottom !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+}
+
+.title {
+    line-height: 45px !important;
+    margin-bottom: 10px !important;
+    font-size: 36px !important
+}
+
+.subtitle {
+    color: #878787 !important;
+    font-size: 16px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.features {
+    text-align: center !important;
+    background: #292933 !important;
+    padding: 60px 50px !important;
+}
+.features .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 45px !important;
+}
+
+.features .subtitle {
+    font-size: 20px !important;
+    color: #a2a8bd;
+}
+
+.features .card-body {
+    text-align: left !important;
+}
+
+.features .card-title {
+    margin: 0 0 -3px !important;
+}
+.cards {
+    margin-top: 30px !important;
+    gap: 24px;
+}
+
+.card {
+    border-radius: 8em !important;
+    box-shadow: none !important;
+    gap: 24px;
+}
+
+.card-title {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    color: #dbdbdb !important;
+}
+
+.start {
+    padding: 60px 50px !important
+}
+
+.start .card {
+    background: transparent !important;
+    color: #f6f9ff !important;
+}
+
+.features .card {
+    background: #1D1E28;
+    border-radius: 22px !important;
+    border: 4px solid #a83e9f;
+}
+.features .card-text {
+color: rgba(255, 255, 255, 0.46) !important
+}
+
+.features .card-body {
+    padding: 40px 40px 40px 30px !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+.footer {
+    text-align: center !important;
+    padding: 5px 6px !important;
+    color: #ecf2ff;
+    padding: 30px 30px !important
+}
+
+.footer .nouridio {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 5px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+}
+
+.footer .bot-footer {
+    text-align: center !important;
+    color: #a2a8bd !important
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
