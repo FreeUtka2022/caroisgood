@@ -1,0 +1,105 @@
+<body oncontextmenu="return false">
+  <!DOCTYPE html>
+  <html lang="eng">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="other.css">
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="kit.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+      <title>Search</title>
+      <link type="image/x-icon" rel="shortcut icon" href="https://i.ibb.co/5rM8mCX/unnamed.png" width="50">
+  </head>
+  <body>
+  <form onsubmit="return search()">
+  <label for="query" class = title >Enter your search query:</label><br>
+  <input type="text" id="query" name="query"><br>
+  <input type="submit" value="Search">
+</form>
+
+<nav class="navbar navbar-expand-lg bg-transparent">
+  </a>
+</script>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+  </div>
+  <a class="btn btn-secondary1 btn-lg" href="index.html" target="_blank" role="button">Go to the Home</a>
+</nav><center>
+
+<div id="link"></div>
+<div id="result"></div>
+
+<script>
+  function search() {
+    var query = document.getElementById('query').value;
+    if (query == 'Download') {
+      location = "dc.html";
+    } else if (query == 'Help') {
+      location = "help.html";
+    } else if (query == 'Home') {
+      location = "index.html";
+    }  if (query == 'download') {
+      location = "dc.html";
+    } else if (query == 'help') {
+      location = "help.html";
+    } else if (query == 'home') {
+      location = "index.html";
+    } else if (query == 'privacypolicy') {
+      location = "pps.html";
+    } else if (query == 'PrivacyPolicy') {
+      location = "pps.html";
+    } else {
+      document.getElementById('result').innerHTML = 'Try Again';
+    }
+    return false;
+  }
+</script>
+
+<div class="heading">
+  <h1 class="display-5 title">All search query:</h1>
+  <p class="subtitle">Download - Download caro
+<br>Help - Support Server <br>Home - Back To Main Page</b> <br>PrivacyPolicy - Privacy Policy</p>
+
+<style>
+.title, .subtitle {
+  text-align: center;
+}
+  body {
+    background-color: #333;
+    color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label, input {
+    margin: 10px 0;
+  }
+  input[type="text"] {
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #333;
+    color: white;
+  }
+  input[type="submit"] {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .btn {
+    border-radius: 15px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-secondary {
+    background-color: #343537 !important
+}
+</style>
+</body>
